@@ -26,6 +26,7 @@ public class AmazonTesting {
 
 		System.out.println(driver.getTitle());
 
+		/*
 		WebElement mobiles = driver
 				.findElement(By.xpath("//a[@href='/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles']"));
 
@@ -34,7 +35,7 @@ public class AmazonTesting {
 		Action clkOnMobile = actions.click(mobiles).build();
 
 		clkOnMobile.perform();
-
+*/
 	}
 
 	public static void main(String[] args) throws MalformedURLException {
